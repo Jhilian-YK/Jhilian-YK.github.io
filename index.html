@@ -1,0 +1,728 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | Jhilian Yan-Klassen</title>
+    <link rel="icon" type="image/png" href="pfp_favicon.png?v=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=10" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <div class="nav-links" aria-label="Main navigation">
+          <a class="active" href="#home" data-target="home">Home</a>
+          <a href="#site" data-target="site">SITE</a>
+          <!-- <a href="#projects" data-target="projects">Projects</a> -->
+          <a href="#hobbies" data-target="hobbies">Hobbies</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="page-shell">
+      <section class="home-hero page-view active" id="home">
+        <div class="intro">
+          <h1>Jhilian Yan-Klassen</h1>
+          <p>
+            Hi! I'm a high school student passionate about ballet and
+            choreography, music and composition on the piano, and physics, CAD,
+            and mechatronics! Yes, I have 8 Blåhaj :D
+          </p>
+        </div>
+
+        <div class="profile-card" aria-label="Profile picture placeholder">
+          <img
+            class="profile-image"
+            src="pfp_light.jpg"
+            alt="Profile picture"
+          />
+        </div>
+      </section>
+
+      <section class="content-section site-section page-view" id="site">
+        <h1>
+          Students' Introduction To Engineering
+          <span class="raised-paren">(</span>SITE<span class="raised-paren"
+            >)</span
+          >
+        </h1>
+        <p>
+          Funded by the Vancouver School Board's Student Leadership Fund,
+          Student's Introduction To Engineering (SITE) has been running for over
+          three years, introducing almost 200 students to programming and
+          electrical engineering. There are multiple workshops for different
+          ages to inspire students to pursue engineering. These workshops have
+          always been run by girls to encourage gender diversity and STEM and
+          show female students that there are other girls interested in
+          engineering.
+        </p>
+        <p>
+          SITE offers four different workshops, three for elementary school
+          students: Micro:bit Explorers, Micro:bit Builders, and Circuit
+          Engineers, and one for female high-school students: Introduction to
+          Electronics. The three elementary school workshops are roughly two to
+          three hours long each. Introduction to Engineering is four one-hour
+          sessions, usually weekly. SITE is primarily for VSB students. Please
+          read below for more details.
+        </p>
+        <a
+          class="site-contact-link"
+          href="https://forms.gle/v67hG42SeoWHK4Yu9"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Ask a question or register for a workshop
+        </a>
+        <div class="site-grid">
+          <article
+            class="site-feature expandable-site-feature"
+            tabindex="0"
+            role="button"
+            aria-haspopup="dialog"
+            aria-label="Open full Micro:bit Explorers course description"
+            data-requirement-style="after-blurb"
+            data-requirement="Requires laptops supplied by the school. SITE will supply all other materials."
+          >
+            <div class="feature-image">
+              <img src="MicrobitExplorers.png" alt="Students participating in Micro:bit Explorers" />
+            </div>
+            <h2>Micro:bit Explorers</h2>
+            <p class="age-range">Grades 4-5</p>
+            <p class="site-blurb">
+              Teaches students basic coding through a block-based language and
+              teaches them how to use the Micro:bit, a simple microcontroller.
+            </p>
+            <p class="full-site-blurb" hidden>
+              Micro:bit Explorers focuses on teaching the basics of computer
+              programming, teaching the coding language Scratch, an
+              easy-to-understand block-based language. Students will be taught
+              how to code a name tag and an even-odd indicator, how to export
+              their code onto the physical Micro:bit controller, and how to
+              interact with the Micro:bit controller and run their code. This
+              workshop requires access to a computer for each student (provided
+              by the school), while all other materials are supplied. This
+              workshop is roughly 2 hours long and the students don't need any
+              previous programming experience.
+            </p>
+          </article>
+          <article
+            class="site-feature expandable-site-feature"
+            tabindex="0"
+            role="button"
+            aria-haspopup="dialog"
+            aria-label="Open full Micro:bit Builders course description"
+            data-requirement-style="after-blurb"
+            data-requirement="Requires laptops supplied by the school. SITE will supply all other materials."
+          >
+            <div class="feature-image">
+              <img src="MicrobitBuilders.jpg" alt="Students participating in Micro:bit Builders" />
+            </div>
+            <h2>Micro:bit Builders</h2>
+            <p class="age-range">Grades 5-6</p>
+            <p class="site-blurb">
+              Introduces students to electronics through a hands-on activity,
+              coding a program for the Micro:bit, and building a circuit for it.
+            </p>
+            <p class="full-site-blurb" hidden>
+              Micro:bit Builders teaches the basics of computer programming with
+              a block-based interface for Scratch. Students will learn how to
+              make a name tag, code an interactive guitar, build the guitar
+              circuit, connect the Micro:bit to their guitar circuit, and
+              interact with the guitar circuit and Micro:bit controller to play
+              some musical chords. This workshop is roughly 2 hours long and
+              does not require any previous experience in programming. This
+              workshop includes a hands-on activity with all materials supplied
+              by SITE, but still requires access to a laptop for each student
+              provided by the school. The first project where students make
+              nametags is the same project in Micro:bit Builders.
+            </p>
+          </article>
+          <article
+            class="site-feature expandable-site-feature"
+            tabindex="0"
+            role="button"
+            aria-haspopup="dialog"
+            aria-label="Open full Circuit Engineers course description"
+            data-requirement-style="after-blurb"
+            data-requirement="Does not use laptops. SITE will supply all materials."
+          >
+            <div class="feature-image">
+              <img src="CircuitEngineers.png" alt="Students participating in Circuit Engineers" />
+            </div>
+            <h2>Circuit Engineers</h2>
+            <p class="age-range">Grades 6-7</p>
+            <p class="site-blurb">
+              Introduces electronic components and how to use them in a circuit
+              with an Arduino microcontroller to move a Servo motor.
+            </p>
+            <p class="full-site-blurb" hidden>
+              Circuit Engineers teaches basic electronic theory including Ohm’s
+              law. Students will learn how to light an LED on a breadboard, and
+              use various electrical components including photocell resistors
+              and potentiometers to change the brightness of the LED. Students
+              will also learn how to connect a servo motor (a small motor with
+              an arm) to an Arduino microcontroller and a circuit that moves the
+              arm of servo through changing the electrical current in the
+              circuit. All materials will be supplied by SITE and this workshop
+              does not use computers. This workshop is roughly 2 hours of
+              hands-on activities and does not require any previous experience.
+            </p>
+          </article>
+          <article
+            class="site-feature expandable-site-feature"
+            tabindex="0"
+            role="button"
+            aria-haspopup="dialog"
+            aria-label="Open full Introduction to Electronics course description"
+            data-requirement-style="after-blurb"
+            data-requirement="For the third and fourth sessions, students must bring their personal laptops or use laptops supplied by the school. SITE will supply all other materials."
+          >
+            <div class="feature-image">
+              <img src="IntroductionToElectronics.png" alt="Students participating in Introduction to Electronics" />
+            </div>
+            <h2>Introduction to Electronics</h2>
+            <p class="age-range">Highschool, female students</p>
+            <p class="site-blurb">
+              Teaches students electronic theory, the function of components,
+              and how to program an Arduino to control various components.
+            </p>
+            <p class="full-site-blurb" hidden>
+              Introduction to Electronics is a four session workshop on the
+              basics of electrical engineering for female students to encourage
+              gender diversity in STEM. Students will start by learning some
+              theory including Ohm's law and parallel and series circuits before
+              building some circuits of their own. Students will also learn how
+              to connect a Servo motor to an Arduino microcontroller and program
+              the Arduino to turn the Servo arm when a potentiometer is turned.
+              This workshop includes many hands-on activities as well as a
+              segment focused on programming. Any female or non-binary students
+              are welcome to join. The students should use their own laptop or
+              ones supplied by the school. All other materials will be supplied
+              by SITE.
+            </p>
+          </article>
+        </div>
+        <!--
+        <section class="timeline" aria-label="SITE timeline">
+          <h2>Timeline</h2>
+          <article class="timeline-year">
+            <div class="timeline-date">2023-2024</div>
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-copy">
+              <div class="timeline-image">Photo</div>
+              <p>
+                Write 5-6 lines about what you did during the 2023-2024 school
+                year. You can include what you started learning, what felt new,
+                what projects you tried, and what skills you began building.
+              </p>
+            </div>
+          </article>
+          <article class="timeline-year">
+            <div class="timeline-date">2024-2025</div>
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-copy">
+              <div class="timeline-image">Photo</div>
+              <p>
+                Write 5-6 lines about what you did during the 2024-2025 school
+                year. This could show how your confidence grew, what changed
+                from the year before, and what you became more interested in.
+              </p>
+            </div>
+          </article>
+          <article class="timeline-year">
+            <div class="timeline-date">2025-2026</div>
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-copy">
+              <div class="timeline-image">Photo</div>
+              <p>
+                Write 5-6 lines about what you did during the 2025-2026 school
+                year. This can focus on recent work, what you are proud of, and
+                what you want to keep exploring next.
+              </p>
+            </div>
+          </article>
+          <article class="timeline-year">
+            <div class="timeline-date">2026-2027</div>
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-copy">
+              <div class="timeline-image">Coming Soon :D</div>
+              <p>
+                Write 5-6 lines about what you do during the 2026-2027 school
+                year. You can add goals, new experiences, important projects,
+                and anything you want to remember from this year.
+              </p>
+            </div>
+          </article>
+        </section>
+        -->
+      </section>
+
+      <!--
+      <section class="content-section projects-section page-view" id="projects">
+        <h1>Projects</h1>
+        <div class="project-preview-grid">
+          <a class="project-preview-card" href="#project-one">
+            <div class="project-preview-image">Photo 1</div>
+            <h2>Project One</h2>
+          </a>
+          <a class="project-preview-card" href="#project-two">
+            <div class="project-preview-image">Photo 2</div>
+            <h2>Project Two</h2>
+          </a>
+          <a class="project-preview-card" href="#project-three">
+            <div class="project-preview-image">Photo 3</div>
+            <h2>Project Three</h2>
+          </a>
+        </div>
+        <div class="project-detail-list">
+          <article class="project-detail" id="project-one">
+            <h2>Project One</h2>
+            <div class="project-image-row">
+              <div class="project-detail-image">Image 1</div>
+              <div class="project-detail-image">Image 2</div>
+              <div class="project-detail-image">Image 3</div>
+            </div>
+            <p>
+              Write up to 8 sentences about Project One here. You can explain
+              what the project is, why you made it, and what problem it solves.
+              Add what tools, materials, or skills you used. Mention what part
+              was most difficult. Describe what you learned while making it. You
+              can also explain what changed from your first idea to the final
+              version. Add anything you are proud of. End with what you might
+              improve or add next.
+            </p>
+          </article>
+          <article class="project-detail" id="project-two">
+            <h2>Project Two</h2>
+            <div class="project-image-row">
+              <div class="project-detail-image">Image 1</div>
+              <div class="project-detail-image">Image 2</div>
+              <div class="project-detail-image">Image 3</div>
+            </div>
+            <p>
+              Write up to 8 sentences about Project Two here. You can describe
+              the goal of the project and how you started it. Talk about the
+              steps you followed and what you experimented with. Include any
+              challenges or mistakes that helped you learn. Explain how the
+              images above connect to the project. Mention what skills this
+              project shows. Add what you would tell someone else trying to make
+              something similar. Finish with what you like most about the final
+              result.
+            </p>
+          </article>
+          <article class="project-detail" id="project-three">
+            <h2>Project Three</h2>
+            <div class="project-image-row">
+              <div class="project-detail-image">Image 1</div>
+              <div class="project-detail-image">Image 2</div>
+              <div class="project-detail-image">Image 3</div>
+            </div>
+            <p>
+              Write up to 8 sentences about Project Three here. You can
+              introduce what the project does and why it matters to you. Explain
+              the main design choices you made. Describe how you tested,
+              changed, or improved it. Add what you learned from the process.
+              Mention any teamwork, research, or planning that helped. Use this
+              space to show your personality and thinking. End with what this
+              project makes you want to try next.
+            </p>
+            <div class="project-pdf-viewer">PDF preview space</div>
+          </article>
+        </div>
+      </section>
+      -->
+
+      <section class="content-section hobbies-section page-view" id="hobbies">
+        <h1>Compositions & Dances</h1>
+        <p>
+          Outside of STEM, my two main hobbies are dance and composition on the
+          piano. I started dancing when I was two, picking up piano at 5, and I
+          began my journey of composition when I was 13.
+        </p>
+        <p>
+          I named my first real composition <i>How Did We Get Here?</i> after
+          the Minecraft advancement. Minecraft is the only PC game I've ever
+          played and as I continued writing songs, I knew I wanted a theme to
+          their names so I continued with the Minecraft advancement trend.
+        </p>
+        <p>
+          I'm less creative with dance, although I have choreographed a few
+          ballet solos to my own compositions. I also do contemporary, and
+          included my favourite solo,
+          <i>Last Flight</i>, to <i>The Dying Swan</i>, at the bottom of this
+          page.
+        </p>
+        <div class="composition-list">
+          <section class="composition-group">
+            <h2>How Did We Get Here?</h2>
+            <img class="composition-bracket" src="bracket.svg" alt="" />
+            <div class="composition-blurbs">
+              <article class="composition-blurb">
+                <div class="blurb-text">
+                  <h3>How Did We Get Here? - Composition</h3>
+                  <p>
+                    This song will always be special to me. One summer
+                    afternoon, I just sat down on the piano bench, decided I
+                    wanted to write a waltz, and started playing the beginning
+                    melody of <i>How Did We Get Here?</i>. I was also working on
+                    the dance around this time and still hadn't found a title
+                    for the composition. I named the dance
+                    <i>How Did We Get Here?</i> first and realized the title fit
+                    both perfectly (and now I have a few songs named after
+                    Minecraft Advancements). There was no inspiration for this
+                    song, it simply happened, and I ask, with pride, "How Did We
+                    Get Here?"
+                  </p>
+                </div>
+                <iframe
+                  src="https://www.youtube.com/embed/L9dbLnuCSVU"
+                  title="How Did We Get Here video 1"
+                  allow="
+                    accelerometer;
+                    autoplay;
+                    clipboard-write;
+                    encrypted-media;
+                    gyroscope;
+                    picture-in-picture;
+                    web-share;
+                  "
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </article>
+              <article class="composition-blurb">
+                <div class="blurb-text">
+                  <h3>How Did We Get Here? - Dance</h3>
+                  <p>
+                    When I listen to this song, I hear all the notes I wrote,
+                    but in some sections, I also hear dance steps. It wasn't
+                    hard to choreograph some parts of this solo because it
+                    sounded like there were a set of right steps that belonged
+                    to the music. After I finished the choreography with my
+                    teacher (Sibel Rivera) and saw how much we accomplished, I
+                    felt it had to be named <i>How Did We Get Here?</i>. This
+                    Minecraft advancement requires the player to have every
+                    status affect at once. This title is fitting because I am
+                    the composer, choreographer, and dancer, all at once.
+                  </p>
+                </div>
+                <iframe
+                  src="https://www.youtube.com/embed/6SR8aSNzeH8"
+                  title="How Did We Get Here video 2"
+                  allow="
+                    accelerometer;
+                    autoplay;
+                    clipboard-write;
+                    encrypted-media;
+                    gyroscope;
+                    picture-in-picture;
+                    web-share;
+                  "
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </article>
+            </div>
+          </section>
+
+          <section class="composition-group">
+            <h2>Feels Like Home</h2>
+            <img class="composition-bracket" src="bracket.svg" alt="" />
+            <div class="composition-blurbs">
+              <article class="composition-blurb">
+                <div class="blurb-text">
+                  <h3>Feels Like Home</h3>
+                  <p>
+                    High school was stressful, and after losing a family member,
+                    my mental health was not doing well. This was the first song
+                    I had written after <i>How Did We Get Here?</i>, after
+                    taking a two year hiatus from composing. Other than 16
+                    counts of the melody, I wrote the whole song in four days.
+                    Similar to <i>How Did We Get Here?</i>, I sat at the piano
+                    and just started playing the melody, although this song was
+                    more influenced by my emotions. It's special because I had
+                    composed those other 16 measures before that family member
+                    passed away and it was one of the last phrases of music I
+                    played to them. Whenever I hear this song, it
+                    <i>Feels Like Home</i>.
+                  </p>
+                </div>
+                <iframe
+                  src="https://www.youtube.com/embed/9QRUV-Ks_7s"
+                  title="Feels Like Home video 1"
+                  allow="
+                    accelerometer;
+                    autoplay;
+                    clipboard-write;
+                    encrypted-media;
+                    gyroscope;
+                    picture-in-picture;
+                    web-share;
+                  "
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </article>
+              <article class="composition-blurb">
+                <div class="blurb-text">
+                  <h3>Indelible</h3>
+                  <p>
+                    This dance came to me easier than
+                    <i>How Did We Get Here?</i> but the process was quite
+                    similar: I started in the middle and worked my way outwards.
+                    At first, I only had a few measures of steps for this dance,
+                    and I was worried that I wouldn’t finish the choreography in
+                    time, but then the rest of the dance, like my compositions,
+                    just came to be within the next two weeks. As it is my last
+                    year competing and I choreographed the entire dance on my
+                    own, it is truly unforgettable. The song
+                    <i>Feels Like Home</i>, but this dance is <i>Indelible</i>.
+                    I will be competing in early 2026 and share the video after
+                    I perform this solo.
+                  </p>
+                </div>
+                <div
+                  class="in-progress-media"
+                  role="img"
+                  aria-label="Feels Like Home video 2 coming soon"
+                >
+                  Coming Soon :D
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section class="composition-group single-group">
+            <h2>Top of the World</h2>
+            <img class="composition-bracket single" src="bracket.svg" alt="" />
+            <div class="composition-blurbs">
+              <article class="composition-blurb">
+                <div class="blurb-text">
+                  <h3>Top of the World</h3>
+                  <p>
+                    This is my favourite piece that I have composed. I had the
+                    main melody stuck in my head for over a year, and for some
+                    reason, I just couldn't come up with the beginning. I was
+                    working on a different piece when a set of four measures
+                    just stood out to me matched the other melody perfectly.
+                    It's one of my harder pieces that will take a while to
+                    learn, so I tried other instruments in MuseScore (the
+                    software for playing the music) and now I have a wonderful
+                    orchestral version. Whenever I'm having a bad day, I just
+                    listen to this song, and I feel like I'm at the
+                    <i>Top of the World</i>.
+                  </p>
+                </div>
+                <iframe
+                  src="https://www.youtube.com/embed/KEr88I3Bf8I"
+                  title="Top of the World video"
+                  allow="
+                    accelerometer;
+                    autoplay;
+                    clipboard-write;
+                    encrypted-media;
+                    gyroscope;
+                    picture-in-picture;
+                    web-share;
+                  "
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </article>
+            </div>
+          </section>
+
+          <section class="composition-group">
+            <h2>The End</h2>
+            <img class="composition-bracket" src="bracket.svg" alt="" />
+            <div class="composition-blurbs">
+              <article class="composition-blurb">
+                <div class="blurb-text">
+                  <h3>The End</h3>
+                  <p>
+                    The main melodies of <i>The End</i> come from a song I wrote
+                    over a year before <i>How Did We Get Here?</i>, and while I
+                    loved how pretty it sounded, I felt like it had too many
+                    ideas. I was going through the list of Minecraft
+                    advancements and saw <i>The End</i> and
+                    <i>The End... Again...</i> and realized I could split my
+                    original piece into two songs. It's a bit ironic both songs
+                    are named <i>The End</i> since the melodies were my first
+                    piece, but sometimes you just have to start at
+                    <i>The End</i>.
+                  </p>
+                </div>
+                <iframe
+                  src="https://www.youtube.com/embed/qLc4CpCZaco"
+                  title="The End video 1"
+                  allow="
+                    accelerometer;
+                    autoplay;
+                    clipboard-write;
+                    encrypted-media;
+                    gyroscope;
+                    picture-in-picture;
+                    web-share;
+                  "
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </article>
+              <article class="composition-blurb">
+                <div class="blurb-text">
+                  <h3>The End Again</h3>
+                  <p>
+                    I always loved watching the piano tutorials with the falling
+                    keys and I finally figured out how to replicate it! There's
+                    software that takes the MIDI file and displays the falling
+                    keys, which I can line up to MuseScore playing the keys from
+                    the same MIDI file. The engineer in me wants to set up an
+                    LED strip with an Arduino so I can have the visual with my
+                    hands playing as well, but I don't have a keyboard with a
+                    MIDI output, so I am leaving it with the MuseScore
+                    recordings for now. (And the fact that both songs are more
+                    difficult than the original so it will take time to learn
+                    them).
+                  </p>
+                </div>
+                <iframe
+                  src="https://www.youtube.com/embed/84gMgh8u3aU"
+                  title="The End video 2"
+                  allow="
+                    accelerometer;
+                    autoplay;
+                    clipboard-write;
+                    encrypted-media;
+                    gyroscope;
+                    picture-in-picture;
+                    web-share;
+                  "
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </article>
+            </div>
+          </section>
+
+          <section class="composition-group single-group">
+            <h2>Hidden in the Depths</h2>
+            <img class="composition-bracket single" src="bracket.svg" alt="" />
+            <div class="composition-blurbs">
+              <article class="composition-blurb">
+                <div class="blurb-text">
+                  <h3>Hidden in the Depths</h3>
+                  <p>
+                    All the songs on this page are in a major key, and I seem to
+                    have trouble composing songs in a minor key (although I do
+                    have a few in progress). In fact, a friend challenged me to
+                    write a song in B minor, and while the harmony of the first
+                    measure follows a B minor chord progression, the key of the
+                    song is D major. The repetition of certain notes in this
+                    song makes me think of life slowly wearing away at something
+                    <i>Hidden in the Depths</i>. Instead of using a MIDI
+                    recording, I've decided to take the time to learn this piece
+                    since it isn't too hard to learn and the recording will have
+                    more of a soul. Coming "soon" :D
+                  </p>
+                </div>
+                <div
+                  class="in-progress-media"
+                  role="img"
+                  aria-label="Hidden in the Depths video coming soon"
+                >
+                  Coming Soon :D
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section class="composition-group single-group">
+            <h2>Last Flight</h2>
+            <img class="composition-bracket single" src="bracket.svg" alt="" />
+            <div class="composition-blurbs">
+              <article class="composition-blurb">
+                <div class="blurb-text">
+                  <h3>Last Flight</h3>
+                  <p>
+                    Even though I started ballet when I was 2, I only started
+                    contemporary when I was 13. Contemporary has some
+                    similarities to ballet, and my preferred style of
+                    contemporary is very close to ballet. I'm very lucky I had
+                    an amazing teacher (Naomi Wright) who chose
+                    <i>Flight Not Yet Fled</i> by Michael Wall, a cover of
+                    Camille Saint-Saëns's <i>The Dying Swan</i>, and
+                    choreographed this solo that perfectly suited my style of
+                    contemporary. While I tend to enjoy ballet more and have
+                    performed over 20 solos, this is my favourite by far.
+                  </p>
+                </div>
+                <iframe
+                  src="https://www.youtube.com/embed/A_oNdWr54o8"
+                  title="Last Flight video"
+                  allow="
+                    accelerometer;
+                    autoplay;
+                    clipboard-write;
+                    encrypted-media;
+                    gyroscope;
+                    picture-in-picture;
+                    web-share;
+                  "
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </article>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <div
+      class="site-modal"
+      id="site-modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="site-modal-title"
+      hidden
+    >
+      <div class="site-modal__backdrop" data-modal-close></div>
+      <section class="site-modal__panel">
+        <button
+          class="site-modal__close"
+          type="button"
+          aria-label="Close course description"
+          data-modal-close
+        >
+          &times;
+        </button>
+        <div class="site-modal__content">
+          <p class="site-modal__age" id="site-modal-age"></p>
+          <p class="site-modal__under-grade" id="site-modal-under-grade"></p>
+          <div class="site-modal__title-row">
+            <h2 id="site-modal-title"></h2>
+            <span class="site-modal__badge" id="site-modal-badge"></span>
+          </div>
+          <p class="site-modal__below-title" id="site-modal-below-title"></p>
+          <p id="site-modal-blurb"></p>
+          <aside class="site-modal__requirements" id="site-modal-requirements">
+            <strong>Requirements</strong>
+            <span id="site-modal-requirements-text"></span>
+          </aside>
+        </div>
+      </section>
+    </div>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Jhilian Yan-Klassen</p>
+    </footer>
+
+    <script src="script.js?v=7"></script>
+  </body>
+</html>
